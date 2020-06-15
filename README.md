@@ -7,11 +7,17 @@ Appium server: v1.13.0
 ZDROJ APK: https://apkpure.com/alza/cz.alza.eshop
 
 Ve Variables je potřeba: 
+
 ${appium_server}    http://localhost:4723/wd/hub  (toto by mělo být výchozí nastavení)
+
 ${platform}         Android
 ${adbDevice}        192.168.209.101:5555   (toto je zarizeni emularotu, da se zjistit pres příkazový řádek "ADB DEVICES" ) 
+
 ${appLocation}      C:\\AndroidApps\\      (zde je potřeba zmenit cestu k danému APK)
+
 ${apkName}          ALZA.apk               (název APK balíčku)
+
 ${package_name}     cz.alza.eshop          (Upřesňující nastavení pro specifikaci APK pro otevření aplikace)
+
 ${AppMainActivity}  cz.alza.eshop.common.activity.proxy.HomeProxyActivity   (Upřesňující nastavení pro specifikaci APK pro otevření aplikace)
 

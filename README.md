@@ -6,7 +6,7 @@ Appium server: v1.13.0
 
 ZDROJ APK: https://apkpure.com/alza/cz.alza.eshop
 
-Ve Variables je potřeba: 
+Ve Variables.robot je případně potřeba změnit: 
 
 ${appium_server}    http://localhost:4723/wd/hub  (toto by mělo být výchozí nastavení)
 

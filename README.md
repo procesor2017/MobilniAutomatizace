@@ -21,3 +21,6 @@ ${package_name}     cz.alza.eshop          (Upřesňující nastavení pro speci
 
 ${AppMainActivity}  cz.alza.eshop.common.activity.proxy.HomeProxyActivity   (Upřesňující nastavení pro specifikaci APK pro otevření aplikace)
 
+V případě, spouštění aplikaci se smazanými daty je třeba ve variables nastavit
+${resetoff}         false
+

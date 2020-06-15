@@ -23,4 +23,3 @@ ${AppMainActivity}  cz.alza.eshop.common.activity.proxy.HomeProxyActivity   (Up�
 
 V případě, spouštění aplikaci se smazanými daty je třeba ve variables nastavit
 ${resetoff}         false
-

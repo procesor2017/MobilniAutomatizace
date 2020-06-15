@@ -1,5 +1,6 @@
 # MobilniAutomatizace
 Nainstalované Android studio (není podmínkou ale výhodou - lze použít emulator a uiautomator viewer pro hledani ID elementů)
+
 POUŽITÝ EMULATOR: https://www.genymotion.com/download/ (je potřeba mít Virtual box)
 
 Appium server: v1.13.0

@@ -24,3 +24,7 @@ ${AppMainActivity}  cz.alza.eshop.common.activity.proxy.HomeProxyActivity   (Up�
 
 V případě, spouštění aplikaci se smazanými daty je třeba ve variables nastavit
 ${resetoff}         false
+
+
+Jak vyhledavat elementy v appiu 
+https://www.youtube.com/watch?v=M3G9MvwVOd8&t=370s

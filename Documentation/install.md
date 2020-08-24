@@ -61,10 +61,12 @@ Choose emulator (You need just one)
  - Start Appium
    - If you need you can setUp Environment Variables before start Server, under Edit Configurations button. This is usefull if you cant set Up System Variables in windows settings.
    <img src="/IMG/appiumConf.PNG" width="803" height="981">
+   
    - Click Start Server
    - Click on Start Inspector Session (Magnifier in top right corner) 
    - We need set up Desired Capabilities
     - SetUp platformName  Android and deviceName name your emulator (From AVD manager)
-    <img src="/IMG/appiumSetUp.PNG" width="665" height="351"></img>   
+    <img src="/IMG/appiumSetUp.PNG" width="665" height="351"></img> 
+      
    - Click on start session
    - CG you can see inspector for exploring path in android system

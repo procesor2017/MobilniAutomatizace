@@ -21,6 +21,8 @@ Choose Store for shopping
     click element                         id=${privacy_ok_btn}
     wait until element is visible         id=${welcome_screen_cls_btn}
     click element                         id=${welcome_screen_cls_btn}
+    sleep  1s
+    AppiumLibrary.Swipe   1000  100  1000  100    2000
 
 Click on search field
     wait until element is visible         xpath=${search_field}
@@ -43,7 +45,6 @@ Add to cart
 Delete selected items
     click element                         id=${del_count}
 
-Order
 Click on Cart icon
     wait until element is visible         id=${cart_counter}
     click element                         id=${cart_counter}

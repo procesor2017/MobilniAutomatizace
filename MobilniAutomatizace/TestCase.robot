@@ -8,11 +8,13 @@ Test Teardown    Close Application
 
 *** Test Cases ***
 TC01 :: Login
+    [Tags]                          tc01
     Click on Left Menu
     Click on profile
     Input mail and pass to login
 
 TC02 :: Registration
+    [Tags]                          tc02
     Click on Left Menu
     Click on profile
     Click on New registration

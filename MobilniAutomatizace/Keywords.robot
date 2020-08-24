@@ -105,12 +105,12 @@ Click on New registration
     click element                         id=${new_registration}
 
 Input email, reg num. and password
-    wait until element is visible         xpath=${reg_mail}
-    input text    xpath=${reg_mail}       ${mail_txt}
-    click element                         xpath=${reg_number}
-    input text    xpath=${reg_number}     ${reg_num_val}
-    click element                         xpath=${reg_psswd}
-    input text    xpath=${reg_psswd}      ${psswd_txt}
-    click element                         xpath=${reg_psswd_again}
-    input text    xpath=${reg_psswd_again}      ${psswd_txt}
+    wait until element is visible         ${reg_mail}
+    input text    ${reg_mail}       ${mail_txt}
+    click element                         ${reg_number}
+    input text    ${reg_number}     ${reg_num_val}
+    click element                         ${reg_psswd}
+    input text    ${reg_psswd}      ${psswd_txt}
+    wait until element is visible       ${reg_psswd_again}
+    click element                         ${reg_psswd_again}
     click element                         class=${back_btn}

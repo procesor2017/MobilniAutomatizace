@@ -29,7 +29,7 @@ Choose emulator (You need just one)
     <img src="/IMG/jdkSystemEnv.PNG" width="685" height="309"></img>
     - In the section System Variables, find the PATH environment variable and select it. Click Edit. If the PATH environment variable does not exist, click New.
     - In the Edit System Variable (or New System Variable) window, click on new and put path to bin directory in your JDK C:\Program Files\Java\jdk-numberOfYourVersion\bin
-    <img src="/IMG/bin.PNG" width="604" height="661"></img>
+    <img src="/IMG/bin.PNG" width="604" height="661"></img> 
     - Reopen CMD and type java and press enter
     - You should see able argument for java
   

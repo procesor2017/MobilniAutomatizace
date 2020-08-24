@@ -1,16 +1,12 @@
 *** Settings ***
 Library          AppiumLibrary
-Library          SeleniumLibrary
 Resource         Variables.robot
 Resource         Keywords.robot
 
-Test Setup       Open Aplication
-Test Teardown    Close Application
-*** Test Cases ***
-Login
-    Login
-
 *** Keywords ***
+
+
+
 Login
     wait until element is visible         class=${drawer}
     click element                         class=${drawer}

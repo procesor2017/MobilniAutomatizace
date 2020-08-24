@@ -21,14 +21,17 @@ TC02 :: Registration
     Input email, reg num. and password
 
 TC03 :: Search item
+    [Tags]                          tc03
     Click on search field
     Searched word                       mi band
     Click all result
 
 TC04 :: Order Item after searched
+    [Tags]                          tc04
     Click on search field
     Searched word                       mi band
     Click all result
+    Add to cart
     Click on Cart icon
     Click on Continue
     Click on Delivery place

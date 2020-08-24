@@ -26,7 +26,7 @@ Choose emulator (You need just one)
     - Click the Advanced system settings link.
     - Click Environment Variables. 
     - Click on New and put Variable: JAVA_HOME path: folder with path, where you installed JDK (Previously step). Click OK
-    <img src="/IMG/jdkSystemEnv.PNG" width="685" height="309">
+    <img src="/IMG/jdkSystemEnv.PNG" width="685" height="309"></img>
     - In the section System Variables, find the PATH environment variable and select it. Click Edit. If the PATH environment variable does not exist, click New.
     - In the Edit System Variable (or New System Variable) window, click on new and put path to bin directory in your JDK C:\Program Files\Java\jdk-numberOfYourVersion\bin
     <img src="/IMG/bin.PNG" width="604" height="661">

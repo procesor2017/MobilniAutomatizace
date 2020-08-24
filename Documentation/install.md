@@ -29,7 +29,7 @@ Choose emulator (You need just one)
     <img src="/IMG/jdkSystemEnv.PNG" width="685" height="309"></img>
     - In the section System Variables, find the PATH environment variable and select it. Click Edit. If the PATH environment variable does not exist, click New.
     - In the Edit System Variable (or New System Variable) window, click on new and put path to bin directory in your JDK C:\Program Files\Java\jdk-numberOfYourVersion\bin
-    <img src="/IMG/bin.PNG" width="604" height="661">
+    <img src="/IMG/bin.PNG" width="604" height="661"></img>
     - Reopen CMD and type java and press enter
     - You should see able argument for java
   
@@ -52,7 +52,7 @@ Choose emulator (You need just one)
  - Create System Variables (Same as in previously step in Java)
     - In System Variables click on New
     - Name: ANDROID_HOME Path: C:\Users\UserName\AppData\Local\Android\Sdk
-     <img src="/IMG/andHome.PNG" width="781" height="459">
+     <img src="/IMG/andHome.PNG" width="781" height="459"></img>
  
 
 ## How to start and connect RF + Appium + Emulator
@@ -64,6 +64,6 @@ Choose emulator (You need just one)
    - Click on Start Inspector Session (Magnifier in top right corner) 
    - We need set up Desired Capabilities
     - SetUp platformName  Android and deviceName name your emulator (From AVD manager)
-    <img src="/IMG/appiumSetUp.PNG" width="665" height="351">   
+    <img src="/IMG/appiumSetUp.PNG" width="665" height="351"></img>   
    - Click on start session
    - CG you can see inspector for exploring path in android system

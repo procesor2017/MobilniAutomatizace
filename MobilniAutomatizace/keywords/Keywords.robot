@@ -62,8 +62,8 @@ Click Agree
     click element                         id=${agree_btn}
 
 Choose payment method
-    wait until element is visible         id=${payment_method}
-    click element                         id=${payment_method}
+    wait until element is visible         ${payment_method}
+    click element                         ${payment_method}
 
 Input name, adress, city
     input text  id=${order_mail}          ${mail_txt}

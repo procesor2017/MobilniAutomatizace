@@ -1,7 +1,7 @@
 *** Settings ***
 Documentation    Suite description
-Resource         Variables.robot
-Resource         Keywords.robot
+Resource         keywords/Variables.robot
+Resource         keywords/Keywords.robot
 Test Setup       Run Keywords  Connect to Emulator  Choose Store for shopping
 Test Teardown    Close Application
 

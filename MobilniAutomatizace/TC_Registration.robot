@@ -1,6 +1,5 @@
 *** Settings ***
 Library          AppiumLibrary
-Library          SeleniumLibrary
 Resource         Variables.robot
 Resource         Keywords.robot
 

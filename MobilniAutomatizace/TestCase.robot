@@ -28,12 +28,9 @@ TC03 :: Search item
 
 TC04 :: Order Item after searched
     [Tags]                          tc04
-    Click on search field
-    Searched word                       mi band
-    Click all result
-    Add to cart
-    Click on Cart icon
-    Click on Continue
+    Login
+    Start Search Item                mi band
+    Add item to cart
     Click on Delivery place
     Click Agree
     Choose payment method

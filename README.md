@@ -1,30 +1,31 @@
-# MobilniAutomatizace
-Nainstalované Android studio (není podmínkou ale výhodou - lze použít emulator a uiautomator viewer pro hledani ID elementů)
+# Mobile Automation
+## Basic info
+Custom test for example how to testing mobile app
 
-POUŽITÝ EMULATOR: https://www.genymotion.com/download/ (je potřeba mít Virtual box)
+## Folders
+### Documentation/Install.md
+In Documentation directory you can find install.md, where you have guides how to install JDK, AVD, Appium atd.
+If you never used Appium or Emulator, watch these folder
 
-Appium server: v1.13.0
+### MobilniAutomatizace
+There you find TC for alza mobile app, which you can download [here](https://apkpure.com/alza/cz.alza.eshop).
 
-ZDROJ APK: https://apkpure.com/alza/cz.alza.eshop
+### Videa
+Video with working RF + Appium + Emulator
 
-Ve Variables.robot je případně potřeba změnit: 
+## How to start test
+In Variables.robot change these value:
+ - ${appLocation} = path to folder where you have aplication
+ - ${apkName} = Name Alza aplication
 
-${appium_server}    http://localhost:4723/wd/hub  (toto by mělo být výchozí nastavení)
+If you specialy setUp your appium (Change port etc.) change:
+ - ${appium_server} = Change on the port which you change
 
-${platform}         Android
-${adbDevice}        192.168.209.101:5555   (toto je zarizeni emularotu, da se zjistit pres příkazový řádek "ADB DEVICES" )
-
-${appLocation}      C:\\AndroidApps\\      (zde je potřeba zmenit cestu k danému APK)
-
-${apkName}          ALZA.apk               (název APK balíčku)
-
-${package_name}     cz.alza.eshop          (Upřesňující nastavení pro specifikaci APK pro otevření aplikace)
-
-${AppMainActivity}  cz.alza.eshop.common.activity.proxy.HomeProxyActivity   (Upřesňující nastavení pro specifikaci APK pro otevření aplikace)
-
-V případě, spouštění aplikaci se smazanými daty je třeba ve variables nastavit
-${resetoff}         false
-
-
-Jak vyhledavat elementy v appiu 
-https://www.youtube.com/watch?v=M3G9MvwVOd8&t=370s
+If you want to start your aplication. You must change:
+ - ${package_name} = Main package names
+ - ${AppMainActivity} = Set mainActivity class
+ 
+## Tips
+- [How to find id elements with UIautomater](https://www.youtube.com/watch?v=M3G9MvwVOd8&t=370s)  
+- [How to use Appium Desktop Inspector to find Object Locators](https://www.youtube.com/watch?v=P2lM4NY4CTU)
+- [Full video tutorial for testing mobile app](https://www.youtube.com/playlist?list=PLhW3qG5bs-L8npSSZD6aWdYFQ96OEduhk)

@@ -18,6 +18,12 @@ Choose emulator (You need just one)
  - [Genymotion](https://www.genymotion.com/) = Free just for personal usage
  
 ## How to install tools
+### Install AppiumLibrary 
+ - Install [Python](https://www.python.org/) and [PIP](https://www.liquidweb.com/kb/install-pip-windows/)
+ - Open CMD and write:
+    - `pip install robotframework` for install [RobotFramework](https://pypi.org/project/robotframework/) 
+    - `pip install robotframework-appiumlibrary` for install [AppiumLibrary](https://github.com/serhatbolsu/robotframework-appiumlibrary)
+
 ### Install JDK
  - Go to [JDK](https://www.oracle.com/java/technologies/javase-downloads.html) and download JDK (Click on download on JDK and scroll down)
  - Run the downloaded installer, which install JDK and JRE (Deafult folder is C:\Program Files\Java\jdk-numberOfYourVersion)

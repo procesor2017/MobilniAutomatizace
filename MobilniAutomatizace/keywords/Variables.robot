@@ -1,7 +1,7 @@
 *** Settings ***
+Documentation                   Variables for test alza app
 Library                         AppiumLibrary
 Resource                        Keywords.robot
-
 
 *** Variables ***
 #------------------------- Connect to Emulator-------------------------------------#

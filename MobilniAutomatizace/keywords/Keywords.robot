@@ -1,12 +1,13 @@
 *** Settings ***
-Library          AppiumLibrary
-Resource         Variables.robot
-Library          Collections
+Documentation       Keywords for test alza app
+Library             AppiumLibrary
+Resource            Variables.robot
+Library             Collections
 
 *** Keywords ***
-
 # ------------------------  Start applications -------------------------------------- #
 Connect to Emulator
+    [Documentation]                         Basic connections to android emulator
     set appium timeout                                                  40 seconds
     Open Application                        ${appium_server}
     ...                                     platformName=${platform}
@@ -18,6 +19,7 @@ Connect to Emulator
 
 # ------------------------  After start application -------------------------------------- #
 Choose Store for shopping
+    [Documentation]                         Deal with some informations
     wait until element is visible           cz.alza.eshop:id/row_rb   25
     click element                           ${select_country_btn}
     wait until element is visible           id=${privacy_ok_btn}
@@ -26,7 +28,6 @@ Choose Store for shopping
     click element                           id=${welcome_screen_cls_btn}
     sleep                                   1s
     AppiumLibrary.Swipe                     1000  100  1000  100    2000
-
 
 # ------------------------  LogIn / Registration -------------------------------------- #
 Login
@@ -66,6 +67,7 @@ Input email, reg num. and password
 
 # ------------------------  SearchItem -------------------------------------- #
 Start Search Item
+    [Documentation]                         Find ${SEARCH_VALUE} in alza shop
     [Arguments]                             ${SEARCH_VALUE}
     Click on search field
     Searched word                           ${SEARCH_VALUE}

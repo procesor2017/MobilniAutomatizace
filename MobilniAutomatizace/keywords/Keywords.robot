@@ -101,8 +101,8 @@ Delete selected items
     click element                           id=${del_count}
 
 Click on Cart icon
-    wait until element is visible           id=${cart_counter}
-    click element                           id=${cart_counter}
+    wait until element is visible           ${cart_counter}     15
+    click element                           ${cart_counter}
 
 # ----------------------- Buying ---------------------------- #
 Click on Continue
